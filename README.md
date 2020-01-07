@@ -1,3 +1,22 @@
+### Getting Started
+1.clone the project
+2.run `composer install` to generate depedencies in vendor folder
+3.Setup the `.env` file as per your database configuration like database name ,username,password
+#Goto your project directory terminal and 
+4.run `php artisan key:generate`
+5.run `php artisan migrate`
+6.run `php artisan db:seed` or
+
+php artisan db:seed --class=PermissionTableSeeder
+and
+php artisan db:seed --class=CreateAdminUserSeeder to seed the database
+7.run php artisan serve .,,now you are ready to take a flight ...enjoy it..
+
+Login credentials
+email: admin@tilakpoudel.com
+password: admin
+
+
 # Associate users with permissions and roles
 
 
